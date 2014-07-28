@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=P10 NewDesignator=P9
+Change Component Designator: OldDesignator=P11 NewDesignator=P10
+Change Component Designator: OldDesignator=P12 NewDesignator=P11
+Added Component: Designator=P7(block_conn 2 x 3)
+Added Pin To Net: NetName=COM12 Pin=P7-2
+Added Pin To Net: NetName=X12 Pin=P7-3
+Added Pin To Net: NetName=COM11 Pin=P7-4
+Added Pin To Net: NetName=X11 Pin=P7-5
+Added Pin To Net: NetName=COM10 Pin=P7-6
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P7 BLOCK_CONN2X3

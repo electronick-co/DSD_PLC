@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=D49 NewDesignator=D50
+Change Component Designator: OldDesignator=D50 NewDesignator=D51
+Change Component Designator: OldDesignator=D51 NewDesignator=D52
+Change Component Designator: OldDesignator=R57 NewDesignator=R58
+Change Component Designator: OldDesignator=R58 NewDesignator=R59
+Change Component Designator: OldDesignator=R59 NewDesignator=R60
+Change Component Designator: OldDesignator=R60 NewDesignator=R61
+Change Component Designator: OldDesignator=R61 NewDesignator=R62
+Added Component: Designator=D49(R0603_L)
+Added Component: Designator=R57(R0603_N)
+Added Pin To Net: NetName=AN_GND Pin=D49-2
+Added Pin To Net: NetName=3V3 Pin=R57-1
+Change Net Name : Old Net Name=NetD49_1 New Net Name=NetD50_1
+Change Net Name : Old Net Name=NetD49_2 New Net Name=NetD50_2
+Change Net Name : Old Net Name=NetD50_1 New Net Name=NetD51_1
+Change Net Name : Old Net Name=NetR58_1 New Net Name=NetR59_1
+Added Pin To Net: NetName=NetD49_1 Pin=D49-1
+Added Pin To Net: NetName=NetD49_1 Pin=R57-2
+Added Net: Name=NetD49_1
+Added Member To Class: ClassName=DSDPLC_MCU Member=Component D52 S1BB-13-F
+Added Member To Class: ClassName=DSDPLC_MCU Member=Component R62 5.6K

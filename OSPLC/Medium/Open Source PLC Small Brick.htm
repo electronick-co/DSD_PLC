@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0062)http://startingelectronics.com/projects/small-open-source-PLC/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="description" content="The Open Source PLC Small Brick open-source PLC project with source files, schematic diagrams and more information. Build the open source hardware small brick-type PLC (programmable logic controller) project with 4 analog inputs, 10 digital inputs, 8 transistor outputs, JTAG, USB, real-time clock (RTC), RS232 and RS485.">
+		<meta name="keywords" content="open-source, PLC, electronics, project, hardware">
+		<meta name="author" content="(c) 2014, W.A. Smith">
+		<title>Open Source PLC Small Brick</title>
+		<link rel="stylesheet" media="screen" type="text/css" href="./Open Source PLC Small Brick_files/global.css">
+		<link rel="icon" type="image/x-icon" href="http://startingelectronics.com/se.ico">
+		<script type="text/javascript" async="" src="./Open Source PLC Small Brick_files/33cd2962b4d7fa00cda6d532857759bd"></script><script type="text/javascript" async="" src="./Open Source PLC Small Brick_files/ga.js"></script><script type="text/javascript" src="./Open Source PLC Small Brick_files/global.js"></script>
+		<script type="text/javascript" src="./Open Source PLC Small Brick_files/slideshow.js"></script>
+		<!-- fund raiser -->
+		<script type="text/javascript" src="./Open Source PLC Small Brick_files/fundraiser.js"></script>
+		<!-- end fund raiser -->
+		<!-- google analytics code -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34244005-1']);
+			_gaq.push(['_setDomainName', 'startingelectronics.com']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<!-- end google code -->
+			</head>
+
+	<body>
+		<div id="menuContainer">
+			<ul id="mainNav">
+								<li><a href="http://startingelectronics.com/">Home</a></li>
+				<li><a href="http://startingelectronics.com/beginners">Beginners</a></li>
+				<li><a href="http://startingelectronics.com/projects">Projects</a></li>
+				<li><a href="http://startingelectronics.com/tutorials">Tutorials</a></li>
+				<li><a href="http://startingelectronics.com/articles">Articles</a></li>
+				<li><a href="http://startingelectronics.com/reviews">Reviews</a></li>
+				<li><a href="http://startingelectronics.com/software">Software</a></li>
+				<!--<li><a href="">More...</a></li>-->
+				<!--<li><a  href="/tools">Tools</a></li>-->
+				<!--<li><a  href="/components">Components</a></li>-->
+			</ul>
+			<div id="sitesearch">
+				<form action="" method="get">
+					<p>
+						<input type="text" name="q" value="Search..." size="22" onfocus="javascript: if(this.value == &#39;Search...&#39;){ this.value = &#39;&#39;; }" onblur="javascript: if(this.value==&#39;&#39;){this.value=&#39;Search...&#39;;}">
+					</p>
+				</form>
+			</div>
+		</div>
+		<div id="fund_raiser">
+			<div id="fund_raiser_btn">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="47AHQ2Q7692LS">
+				<input type="image" src="./Open Source PLC Small Brick_files/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="./Open Source PLC Small Brick_files/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+			<div id="fund_raiser_col2">
+				<p><b>Target Amount: $92 / $2000</b></p>
+				<p>Amount Raised will be updated once daily.</p>
+				<p><b id="fundraiser_par">Thanks R.V.S for your $10 Donation!</b></p>
+			</div>
+			<p><b>Starting Electronics Fund Raiser</b></p>
+			<p>It is that time of the year again when our annual web hosting subscription must be paid.<br>We also need to upgrade our lab equipment which is outdated (including test equipment).<br>Please consider giving a <b><a href="http://startingelectronics.com/site/donate/">donation</a></b> to Starting Electronics and help to fund this site.</p>
+		</div>
+		<div id="header">
+			<a href="http://startingelectronics.com/"><img src="./Open Source PLC Small Brick_files/logo.png" alt="Starting Electronics, Electronics for beginners, hobbyists and beyond" width="550" height="90"></a>
+
+			<div id="social_media">
+				<div class="social_media_text">
+					<ul>
+						<li><a href="http://www.facebook.com/startingelectronics" class="targetblank" target="_blank">Facebook</a></li>
+						<li><a href="http://www.youtube.com/startingelectronics" class="targetblank" target="_blank">YouTube</a></li>
+						<li><a href="http://blog.startingelectronics.com/" class="targetblank" target="_blank">Blog</a></li>
+						<li><a href="https://twitter.com/StartingElectro" class="targetblank" target="_blank">Twitter</a></li>
+						<li><a href="http://startingelectronics.com/site/donate">Donate</a></li>
+					</ul>
+				</div>
+				<div class="announcements_text">
+					<ul>
+						<li><a target="_blank" href="http://astore.amazon.com/startielectr-20">Shop for Electronics - Our Amazon aStore</a></li>
+												<!--<li><a target="_blank" href="http://www.amazon.co.uk/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=startielectr-21">Shop at Amazon.co.uk (UK) &rarr;</a><img src="https://www.assoc-amazon.co.uk/e/ir?t=startielectr-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+						<li><a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=startielectr-20">Shop at Amazon.com &rarr;</a><img src="https://www.assoc-amazon.com/e/ir?t=startielectr-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>-->
+												<!--<li><a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=startielectr-20">Shop at Amazon.com &rarr;</a><img src="https://www.assoc-amazon.com/e/ir?t=startielectr-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>-->
+											</ul>
+				</div>
+			</div>
+		</div>
+		<p class="breadcrumb">	<a href="http://startingelectronics.com/">Home</a>
+				<img src="./Open Source PLC Small Brick_files/arrow.png" alt="→"><a href="http://startingelectronics.com/projects/"> Projects</a>
+					<img src="./Open Source PLC Small Brick_files/arrow.png" alt="→"> Small Open Source PLC		</p>
+		<div id="page">
+			<div id="r_col">
+				<div class="vert_menu">
+	<p>Projects Menu</p>
+	<ul>
+		<li><a href="http://startingelectronics.com/projects">Projects</a></li>
+		<li><div><a href="http://startingelectronics.com/projects/arduino-projects">Arduino Projects</a></div></li>
+		
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/LED-open-sign">Build an LED "Open" Sign</a></div></li>
+		<li><div class="menudoc"><a class="vert_menu_sel" href="http://startingelectronics.com/projects/small-open-source-PLC">Open Source PLC - Small</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/large-open-source-PLC">Open Source PLC - Large</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/simple-arm-board">Simple ARM Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">Xilinx CPLD Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-parallel-programmer">Xilinx Parallel Programmer</a></div></li>
+	</ul>
+</div>
+
+<div class="vert_menu">
+	<p>Newest Projects</p>
+	<ul>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/raspberry-PI-projects/simple-serial-breakout-board/">Raspberry PI Serial Port and Breakout Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/large-open-source-PLC">Open Source PLC - Large</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/small-open-source-PLC">Open Source PLC - Small</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-parallel-programmer">Xilinx Parallel Programmer</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">Xilinx CPLD Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/simple-arm-board">Simple ARM Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-relay-shield">Relay Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-temperature-shield">Temperature Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-stripboard-shield">Tiny Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/LED-open-sign">Build an LED "Open" Sign</a></div></li>
+	</ul>
+</div>
+			<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-1311998530216395";
+			/* ads_vert_right_160x600 */
+			google_ad_slot = "4991313729";
+			google_ad_width = 160;
+			google_ad_height = 600;
+			//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+					</div>
+
+<div id="project">
+	<div class="article_menu">
+	<p>Small PLC – Pages</p>
+	<ul>
+		<li><div><a class="art_menu_sel" href="http://startingelectronics.com/projects/small-open-source-PLC">Introduction, Applications, Features and History</a></div></li>
+		<li><div><a href="http://startingelectronics.com/projects/small-open-source-PLC/PLC-components">Components &amp; Source Files</a></div></li>
+	</ul>
+</div>
+	<h1>Small Brick Open Source PLC</h1>
+	<p id="page_date">Created on: 18 April 2013</p>
+						<div class="google_top_ad">
+						<script type="text/javascript"><!--
+						google_ad_client = "ca-pub-1311998530216395";
+						/* 336x280 */
+						google_ad_slot = "1843646529";
+						google_ad_width = 336;
+						google_ad_height = 280;
+						//-->
+						</script>
+						<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+						</script>
+					</div>
+					<p>The OSPLC SMALL BRICK is an open-source PLC (programmable logic controller) that can be programmed using open source C language programming tools.</p>
+	<p>The PLC is a general-purpose controller with a wide variety of applications. It is useful to the engineer, technician, student and hobbyist.</p>
+	<p>All the source files for the small brick OSPLC are provided, including schematic diagrams so that you can build this project yourself or modify it.</p>
+	<p>Even if you do not wish to build the project, it serves as a useful reference design for anyone wanting to build a similar PLC project.</p>
+	
+	<img src="./Open Source PLC Small Brick_files/small-PLC.jpg" alt="Small brick open source PLC (OSPLC)" width="300" height="313">
+	<p class="pic_caption">Small Brick Open Source PLC (OSPLC)</p>
+	
+	<p>This video shows the Open Source PLC being demonstrated. One of three programs will run, depending on which input button is pressed. The fourth input button stops all programs from running. The other buttons are ignored by the program.</p>
+	<object class="you_tube" type="application/x-shockwave-flash" width="640" height="360" data="http://www.youtube.com/v/OlFS3bXI-wQ?rel=0"> <!-- &amp;showsearch=0&amp;version=3&amp;showinfo=0 -->
+	<param name="movie" value="http://www.youtube.com/v/OlFS3bXI-wQ?rel=0"> <!-- &amp;showsearch=0&amp;version=3&amp;showinfo=0 -->
+	<param name="allowFullScreen" value="true">
+	<param name="allowscriptaccess" value="always">
+	<param name="wmode" value="opaque">
+</object>
+<div class="you_tube_txt you_tube_txt_width_640">
+<p>Can't see the video? <a href="http://youtu.be/OlFS3bXI-wQ" class="targetblank" target="_blank">View on YouTube →</a></p>
+</div>
+	
+	<h2>OSPLC Applications</h2>
+	<p>Some applications that the OSPLC (Open Source PLC) can be used in:</p>
+	<ul>
+		<li>Machine Control</li>
+		<li>Automatic Test Equipment (ATE)</li>
+		<li>Computer I/O and communication expansion</li>
+		<li>Data logging to EEPROM memory</li>
+		<li>Process Control</li>
+		<li>Process Monitoring</li>
+		<li>Home Automation</li>
+	</ul>
+	<h3>PLC Example Application</h3>
+	<p>The image below shows the small brick open source PLC (top right of cabinet) used to control a machine that automatically measures the density of rubber samples.</p>
+	<p>The PLC controls the pneumatic mechanisms for operating the machine, responds to button presses on the front panel, allows an operator to configure the machine using a keyboard and LCD, and prints test results to an RS-232 slip printer (bottom right).</p>
+	<img src="./Open Source PLC Small Brick_files/densitron.jpg" alt="Open source PLC controlling a machine" width="300" height="412">
+	<p class="pic_caption">Small Brick Open Source PLC Controlling a Densitron<br>(Density Measuring Machine)</p>
+	<p>The machine pictured above was fitted with new electronics and pneumatic parts. The restored machine resulted in a cost savings for the owner as it was much cheaper to restore the machine than buy a new one.</p>
+	
+	<h2>Small Open Source PLC Features</h2>
+	<p>Features include digital I/O, analogue inputs, RS-232 port, RS-485 port, USB device port, JTAG debug port, real-time clock (RTC) with battery backup, Flash memory, SRAM and EEPROM.</p>
+	<p>Programming of the PLC can be done in C and C++. The internal microcontroller is directly accessible to the programmer.</p>
+	<p>Open-source software C programming tools are available for programming the PLC.</p>
+	<h3>Hardware Specification</h3>
+	<table class="component_list">
+
+		<tbody><tr>
+			<td><b>Power Supply</b></td>
+			<td>24V DC – can be configured to operate from 12V to 24V</td>
+		</tr>
+		<tr>
+			<td><b>Digital Inputs</b></td>
+			<td>10 Inputs with LED indicators</td>
+		</tr>
+		<tr>
+			<td><b>Digital Outputs</b></td>
+			<td>8 NPN open-collector (current sinking) outputs rated at 200mA each</td>
+		</tr>
+		<tr>
+			<td><b>Analogue Inputs</b></td>
+			<td>4 analogue inputs rated at 0V to 10V, 10-bit resolution</td>
+		</tr>
+		<tr>
+			<td><b>Communications</b></td>
+			<td>1 × USB device port, 1 × RS-232 port (TX and RX only), 1 × RS-485 port, 1 × JTAG debug port</td>
+		</tr>
+		<tr>
+			<td><b>Real Time Clock</b></td>
+			<td>Seconds, minutes, hours, day, month, years, and century<br>Automatic leap year compensation<br>Battery backup</td>
+		</tr>
+		<tr>
+			<td><b>Memory</b></td>
+			<td>256k bytes Flash memory for program and data storage<br>64k bytes SRAM for program and data storage<br>8k EEPROM for non-volatile storage, general-purpose use</td>
+		</tr>
+		<tr>
+			<td><b>Microcontroller</b></td>
+			<td>AT91SAM7S256 32-bit ARM microcontroller from Atmel<br>Clock speed 48MHz</td>
+		</tr>
+		<tr>
+			<td><b>Mounting</b></td>
+			<td>Uses standard DIN rail for mounting</td>
+		</tr>
+		<tr>
+			<td><b>Programming</b></td>
+			<td>Code is loaded via the USB or RS-232 ports using the on-chip boot loader or directly using the JTAG port</td>
+		</tr>
+	</tbody></table>
+	<h3>Software Specification</h3>
+	<p>GNU ARM tools are available for programming the open source PLC. The tools include compiler, linker, IDE and debugger.</p>
+	<p>The PLC can be programmed using the C and C++ programming languages.</p>
+	<p>A number of JTAG interface pods are available for single-step debugging, e.g. the SAM-ICE from Atmel.</p>
+	<p>Commercial software tools are also available.</p>
+	
+	<script type="text/javascript"><!--
+amazon_ad_tag = "startielectr-20"; amazon_ad_width = "728"; amazon_ad_height = "90";//--></script>
+<script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/ads.js"></script>
+<br><br>
+			
+<br>
+<div class="amazon_box">
+	<p><strong>From amazon.com:</strong></p>
+	<iframe class="amaz_left" src="./Open Source PLC Small Brick_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Open Source PLC Small Brick_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Open Source PLC Small Brick_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Open Source PLC Small Brick_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Open Source PLC Small Brick_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</div>
+<br>
+	
+	<h2>OSPLC History</h2>
+	<p>The open source PLC was originally built in 2007 and was called "open source" because it could be programmed using open source C programming tools.</p>
+	<p>In April 2013, the OSPLC was made fully open source by publishing the source files for the hardware – as part of the project on these web pages.</p>
+	<h3>Motivation for the Design</h3>
+	<p>Existing PLCs have restricted programming languages such as ladder logic. PLC software is proprietary and varies from manufacturer to manufacturer.</p>
+	<p>Embedded software engineers usually find PLC programming languages frustrating to use, but the advantage of a PLC is that it is an off-the-shelf general-purpose controller. There is no need to design new hardware when a controller is needed.</p>
+	<p>The Open Source PLC was designed to be an off-the-shelf C programmable general-purpose controller targeted to engineers and other embedded C programmers. The idea is to have an industrially packaged and designed C programmable microcontroller – packaged like and having an interface like a commercial PLC.</p>
+	<h4>The PLC In Use</h4>
+	<p>The example of the density measuring machine above shows how versatile the OSPLC is. It is interfaced to a PC keyboard and a RS-232 slip printer in addition to various input and output devices on the machine.</p>
+	<p>Because the PLC is programmed in C, it was easy to write the software for controlling the keyboard and printer. This would be difficult or impossible on a normal PLC.</p>
+
+	<div class="article_pg_nav">
+		<p><a href="http://startingelectronics.com/projects/">← Go back to Projects</a><a class="right_link" href="http://startingelectronics.com/projects/small-open-source-PLC/PLC-components">Next: PLC Components →</a></p>
+	</div>
+	<div id="blog_link">
+	<p>To comment on this article or ask questions, go to the <a href="http://blog.startingelectronics.com/?p=648">blog entry for this article</a>. Use the comment box at the bottom of the blog entry.</p>
+</div>
+</div>
+
+						<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-1311998530216395";
+				/* Content Bottom 728x90 Text and Images */
+				google_ad_slot = "9064770040";
+				google_ad_width = 728;
+				google_ad_height = 90;
+				//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+					<div class="clr_flt"></div>
+		</div> <!-- end of "page" div -->
+		<div id="footer">
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/beginners">Beginners</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/beginners/about-electronics">About Electronics</a></li>
+					<li><a href="http://startingelectronics.com/beginners/start-electronics-now">Start Electronics Now</a></li>
+					<li><a href="http://startingelectronics.com/beginners/tools">Tools for Beginners</a></li>
+					<li><a href="http://startingelectronics.com/beginners/soldering">Soldering</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/projects">Projects</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects">Arduino Projects</a></li>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-stripboard-shield">Tiny Stripboard Shield</a></li>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-temperature-shield">Temperature Shield</a></li>
+					<li><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">CPLD Board</a></li>
+					<!--<li><a href="/projects">More Projects...</a></li>-->
+				</ul>
+			</div>
+			
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/tutorials">Tutorials</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/tutorials/arduino" title="Open Source Microcontroller Hardware and Software Platform">Arduino</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/AT91SAM7S-microcontrollers" title="Atmel ARM7 Microcontrollers">AT91SAM7S Micros</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/AVR-8-microcontrollers" title="Atmel 8-bit AVR Microcontrollers">AVR 8-bit Micros</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/STM32-microcontrollers" title="ST Microelectronics ARM Cortex Microcontrollers">STM32 Micros</a></li>
+				</ul>
+			</div>
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/articles">Articles</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/articles/arduino">Arduino Articles</a></li>
+					<li><a href="http://startingelectronics.com/articles/AT91SAM7S-microcontrollers">AT91SAM7S Micros</a></li>
+					<li><a href="http://startingelectronics.com/articles/STM32-microcontrollers">STM32 Micros</a></li>
+					<li><a href="http://startingelectronics.com/articles">More articles...</a></li>
+				</ul>
+				<p></p>
+			</div>
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/reviews">Reviews</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/reviews/tools">Tools Reviews</a></li>
+					<li><a href="http://startingelectronics.com/reviews/evaluation-boards">Evaluation Boards</a></li>
+					<li><a href="http://startingelectronics.com/reviews/books">Book Reviews</a></li>
+					<li><a href="http://startingelectronics.com/reviews">More reviews...</a></li>
+				</ul>
+			</div>
+			<div class="footer_block_r">
+				<h3><a href="http://startingelectronics.com/software">Software</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/software/VHDL-CPLD-course">VHDL Course</a></li>
+					<li><a href="http://startingelectronics.com/software/arduino">Arduino Software</a></li>
+					<li><a href="http://startingelectronics.com/software/processing">Processing Language</a></li>
+					<li><a href="http://startingelectronics.com/software/xilinx">Xilinx Software</a></li>
+				</ul>
+			</div>
+
+			<div class="clr_flt"></div>
+			<div class="footer_block_hor">
+				<ul>
+					<li><a href="http://startingelectronics.com/site/about">About</a></li>
+					<li><a href="http://startingelectronics.com/site/contact">Contact</a></li>
+					<li><a href="http://startingelectronics.com/site/donate">Donate</a></li>
+					<li><a href="http://startingelectronics.com/site/privacy-policy">Privacy Policy</a></li>
+				</ul>
+				<div class="clr_flt"></div>
+			</div>
+		</div>
+		<p id="cpy_txt">© 2012 – 2014, Starting Electronics</p>
+	
+
+
+<script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/33cd2962b4d7fa00cda6d532857759bd?id=3f9c3ae33fab";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script></body></html>

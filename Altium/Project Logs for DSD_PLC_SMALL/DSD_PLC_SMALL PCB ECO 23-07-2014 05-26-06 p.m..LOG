@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=COM10 Pin=P5-2
+Removed Pin From Net: NetName=COM9 Pin=P5-4
+Removed Pin From Net: NetName=COM12 Pin=P7-2
+Removed Pin From Net: NetName=COM11 Pin=P7-4
+Removed Pin From Net: NetName=IN_GND Pin=P9-5
+Removed Pin From Net: NetName=A4 Pin=P9-6
+Added Pin To Net: NetName=COM9 Pin=P5-2
+Added Pin To Net: NetName=IN_GND Pin=P5-4
+Added Pin To Net: NetName=COM11 Pin=P7-2
+Added Pin To Net: NetName=COM10 Pin=P7-4
+Added Pin To Net: NetName=A4 Pin=P9-5
+Added Pin To Net: NetName=COM12 Pin=P9-6

@@ -1,0 +1,48 @@
+Change Component Designator: OldDesignator=R41 NewDesignator=R39
+Change Component Designator: OldDesignator=R42 NewDesignator=R40
+Change Component Designator: OldDesignator=R44 NewDesignator=R41
+Change Component Designator: OldDesignator=R45 NewDesignator=R42
+Change Component Designator: OldDesignator=R47 NewDesignator=R43
+Change Component Designator: OldDesignator=R48 NewDesignator=R44
+Change Component Designator: OldDesignator=R51 NewDesignator=R45
+Change Component Designator: OldDesignator=R52 NewDesignator=R46
+Change Component Designator: OldDesignator=R54 NewDesignator=R47
+Change Component Designator: OldDesignator=R55 NewDesignator=R48
+Change Component Designator: OldDesignator=R57 NewDesignator=R49
+Change Component Designator: OldDesignator=R58 NewDesignator=R50
+Change Component Designator: OldDesignator=R59 NewDesignator=R51
+Change Component Designator: OldDesignator=R60 NewDesignator=R52
+Change Component Designator: OldDesignator=R61 NewDesignator=R53
+Change Component Designator: OldDesignator=R62 NewDesignator=R54
+Change Component Designator: OldDesignator=U16 NewDesignator=U15
+Change Component Designator: OldDesignator=U17 NewDesignator=U16
+Change Component Designator: OldDesignator=U18 NewDesignator=U17
+Change Component Designator: OldDesignator=U19 NewDesignator=U18
+Change Component Designator: OldDesignator=U20 NewDesignator=U19
+Change Component Designator: OldDesignator=U21 NewDesignator=U20
+Change Component Designator: OldDesignator=U22 NewDesignator=U21
+Change Component Designator: OldDesignator=U23 NewDesignator=U22
+Change Component Designator: OldDesignator=U24 NewDesignator=U23
+Change Component Designator: OldDesignator=U25 NewDesignator=U24
+Change Component Designator: OldDesignator=U26 NewDesignator=U25
+Change Component Designator: OldDesignator=U27 NewDesignator=U26
+Change Component Designator: OldDesignator=U28 NewDesignator=U27
+Change Component Designator: OldDesignator=U29 NewDesignator=U28
+Change Component Designator: OldDesignator=U30 NewDesignator=U29
+Change Component Designator: OldDesignator=U31 NewDesignator=U30
+Change Component Designator: OldDesignator=U32 NewDesignator=U31
+Change Component Designator: OldDesignator=U33 NewDesignator=U32
+Change Component Designator: OldDesignator=U34 NewDesignator=U33
+Change Component Designator: OldDesignator=U35 NewDesignator=U34
+Change Component Designator: OldDesignator=U36 NewDesignator=U35
+Change Net Name : Old Net Name=NetR41_1 New Net Name=NetR39_1
+Change Net Name : Old Net Name=NetR42_1 New Net Name=NetR40_1
+Change Net Name : Old Net Name=NetR44_1 New Net Name=NetR41_1
+Change Net Name : Old Net Name=NetR45_1 New Net Name=NetR42_1
+Change Net Name : Old Net Name=NetR47_1 New Net Name=NetR43_1
+Change Net Name : Old Net Name=NetR48_1 New Net Name=NetR44_1
+Change Net Name : Old Net Name=NetR51_1 New Net Name=NetR45_1
+Change Net Name : Old Net Name=NetR52_1 New Net Name=NetR46_1
+Change Net Name : Old Net Name=NetR54_1 New Net Name=NetR47_1
+Change Net Name : Old Net Name=NetR55_1 New Net Name=NetR48_1
+Change Net Name : Old Net Name=NetR59_1 New Net Name=NetR51_1

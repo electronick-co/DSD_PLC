@@ -1,0 +1,4 @@
+Added Component: Designator=M2(MoutingHole-1/8in)
+Added Component: Designator=M3(MoutingHole-1/8in)
+Added Member To Class: ClassName=DSDPLC_MCU Member=Component M2 MountingHole-1/8in
+Added Member To Class: ClassName=DSDPLC_MCU Member=Component M3 MountingHole-1/8in

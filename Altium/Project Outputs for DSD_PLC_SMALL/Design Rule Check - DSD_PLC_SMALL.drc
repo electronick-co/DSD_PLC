@@ -1,0 +1,57 @@
+Protel Design System Design Rule Check
+PCB File : D:\Nick\Robot XY\DSD_PLC\Altium\DSD_PLC_SMALL.PcbDoc
+Date     : 28/07/2014
+Time     : 10:24:54 a.m.
+
+Processing Rule : Width Constraint (Min=15mil) (Max=50mil) (Preferred=20mil) ((InNet('3V3') OR InNet('5V') OR InNet('24V') OR InNet('IN_GND') OR InNet('COMM')))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=40mil) (Preferred=15mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (125mil > 100mil) : Pad M3-0(4384mil,1385mil)  Multi-Layer
+   Violation between Hole Size Constraint (125mil > 100mil) : Pad M2-0(1850mil,4600mil)  Multi-Layer
+   Violation between Hole Size Constraint (127.953mil > 100mil) : Pad J2-(4350mil,4530mil)  Multi-Layer
+   Violation between Hole Size Constraint (127.953mil > 100mil) : Pad J2-(4350mil,4080mil)  Multi-Layer
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) ((HasFootprint('44A_N') OR HasFootprint('USB_MICRO_SMD') OR HasFootprint('SOT363_N'))),((HasFootprint('44A_N') OR HasFootprint('USB_MICRO_SMD') OR HasFootprint('SOT363_N')))
+Rule Violations :0
+
+
+Violations Detected : 4
+Time Elapsed        : 00:00:01

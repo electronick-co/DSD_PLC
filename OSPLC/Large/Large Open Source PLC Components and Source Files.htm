@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0077)http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="description" content="Source files including circuit diagrams for the large open source PLC. Photos of the electronic and microcontroller boards used in the PLC.">
+		<meta name="keywords" content="PLC, open-source, hardware, microcontroller, C language, source-files, schematic, circuit">
+		<meta name="author" content="(c) 2014, W.A. Smith">
+		<title>Large Open Source PLC Components and Source Files</title>
+		<link rel="stylesheet" media="screen" type="text/css" href="./Large Open Source PLC Components and Source Files_files/global.css">
+		<link rel="icon" type="image/x-icon" href="http://startingelectronics.com/se.ico">
+		<script type="text/javascript" async="" src="./Large Open Source PLC Components and Source Files_files/33cd2962b4d7fa00cda6d532857759bd"></script><script type="text/javascript" async="" src="./Large Open Source PLC Components and Source Files_files/ga.js"></script><script type="text/javascript" src="./Large Open Source PLC Components and Source Files_files/global.js"></script>
+		<script type="text/javascript" src="./Large Open Source PLC Components and Source Files_files/slideshow.js"></script>
+		<!-- fund raiser -->
+		<script type="text/javascript" src="./Large Open Source PLC Components and Source Files_files/fundraiser.js"></script>
+		<!-- end fund raiser -->
+		<!-- google analytics code -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34244005-1']);
+			_gaq.push(['_setDomainName', 'startingelectronics.com']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<!-- end google code -->
+			</head>
+
+	<body>
+		<div id="menuContainer">
+			<ul id="mainNav">
+								<li><a href="http://startingelectronics.com/">Home</a></li>
+				<li><a href="http://startingelectronics.com/beginners">Beginners</a></li>
+				<li><a href="http://startingelectronics.com/projects">Projects</a></li>
+				<li><a href="http://startingelectronics.com/tutorials">Tutorials</a></li>
+				<li><a href="http://startingelectronics.com/articles">Articles</a></li>
+				<li><a href="http://startingelectronics.com/reviews">Reviews</a></li>
+				<li><a href="http://startingelectronics.com/software">Software</a></li>
+				<!--<li><a href="">More...</a></li>-->
+				<!--<li><a  href="/tools">Tools</a></li>-->
+				<!--<li><a  href="/components">Components</a></li>-->
+			</ul>
+			<div id="sitesearch">
+				<form action="" method="get">
+					<p>
+						<input type="text" name="q" value="Search..." size="22" onfocus="javascript: if(this.value == &#39;Search...&#39;){ this.value = &#39;&#39;; }" onblur="javascript: if(this.value==&#39;&#39;){this.value=&#39;Search...&#39;;}">
+					</p>
+				</form>
+			</div>
+		</div>
+		<div id="fund_raiser">
+			<div id="fund_raiser_btn">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="47AHQ2Q7692LS">
+				<input type="image" src="./Large Open Source PLC Components and Source Files_files/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="./Large Open Source PLC Components and Source Files_files/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+			<div id="fund_raiser_col2">
+				<p><b>Target Amount: $92 / $2000</b></p>
+				<p>Amount Raised will be updated once daily.</p>
+				<p><b id="fundraiser_par">Thanks W.S. for your $12 Donation!</b></p>
+			</div>
+			<p><b>Starting Electronics Fund Raiser</b></p>
+			<p>It is that time of the year again when our annual web hosting subscription must be paid.<br>We also need to upgrade our lab equipment which is outdated (including test equipment).<br>Please consider giving a <b><a href="http://startingelectronics.com/site/donate/">donation</a></b> to Starting Electronics and help to fund this site.</p>
+		</div>
+		<div id="header">
+			<a href="http://startingelectronics.com/"><img src="./Large Open Source PLC Components and Source Files_files/logo.png" alt="Starting Electronics, Electronics for beginners, hobbyists and beyond" width="550" height="90"></a>
+
+			<div id="social_media">
+				<div class="social_media_text">
+					<ul>
+						<li><a href="http://www.facebook.com/startingelectronics" class="targetblank" target="_blank">Facebook</a></li>
+						<li><a href="http://www.youtube.com/startingelectronics" class="targetblank" target="_blank">YouTube</a></li>
+						<li><a href="http://blog.startingelectronics.com/" class="targetblank" target="_blank">Blog</a></li>
+						<li><a href="https://twitter.com/StartingElectro" class="targetblank" target="_blank">Twitter</a></li>
+						<li><a href="http://startingelectronics.com/site/donate">Donate</a></li>
+					</ul>
+				</div>
+				<div class="announcements_text">
+					<ul>
+						<li><a target="_blank" href="http://astore.amazon.com/startielectr-20">Shop for Electronics - Our Amazon aStore</a></li>
+												<!--<li><a target="_blank" href="http://www.amazon.co.uk/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=startielectr-21">Shop at Amazon.co.uk (UK) &rarr;</a><img src="https://www.assoc-amazon.co.uk/e/ir?t=startielectr-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+						<li><a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=startielectr-20">Shop at Amazon.com &rarr;</a><img src="https://www.assoc-amazon.com/e/ir?t=startielectr-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>-->
+												<!--<li><a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=startielectr-20">Shop at Amazon.com &rarr;</a><img src="https://www.assoc-amazon.com/e/ir?t=startielectr-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>-->
+											</ul>
+				</div>
+			</div>
+		</div>
+		<p class="breadcrumb">	<a href="http://startingelectronics.com/">Home</a>
+				<img src="./Large Open Source PLC Components and Source Files_files/arrow.png" alt="→"><a href="http://startingelectronics.com/projects/"> Projects</a>
+					<img src="./Large Open Source PLC Components and Source Files_files/arrow.png" alt="→"><a href="http://startingelectronics.com/projects/large-open-source-PLC/"> Large Open Source PLC</a>
+					<img src="./Large Open Source PLC Components and Source Files_files/arrow.png" alt="→"> PLC Components		</p>
+		<div id="page">
+			<div id="r_col">
+				<div class="vert_menu">
+	<p>Projects Menu</p>
+	<ul>
+		<li><a href="http://startingelectronics.com/projects">Projects</a></li>
+		<li><div><a href="http://startingelectronics.com/projects/arduino-projects">Arduino Projects</a></div></li>
+		
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/LED-open-sign">Build an LED "Open" Sign</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/small-open-source-PLC">Open Source PLC - Small</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/large-open-source-PLC">Open Source PLC - Large</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/simple-arm-board">Simple ARM Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">Xilinx CPLD Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-parallel-programmer">Xilinx Parallel Programmer</a></div></li>
+	</ul>
+</div>
+
+<div class="vert_menu">
+	<p>Newest Projects</p>
+	<ul>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/raspberry-PI-projects/simple-serial-breakout-board/">Raspberry PI Serial Port and Breakout Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/large-open-source-PLC">Open Source PLC - Large</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/small-open-source-PLC">Open Source PLC - Small</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-parallel-programmer">Xilinx Parallel Programmer</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">Xilinx CPLD Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/simple-arm-board">Simple ARM Board</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-relay-shield">Relay Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-temperature-shield">Temperature Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-stripboard-shield">Tiny Stripboard Shield</a></div></li>
+		<li><div class="menudoc"><a href="http://startingelectronics.com/projects/LED-open-sign">Build an LED "Open" Sign</a></div></li>
+	</ul>
+</div>
+			<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-1311998530216395";
+			/* ads_vert_right_160x600 */
+			google_ad_slot = "4991313729";
+			google_ad_width = 160;
+			google_ad_height = 600;
+			//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+					</div>
+
+<div id="project">
+	<div class="article_menu">
+	<p>Large PLC – Pages</p>
+	<ul>
+		<li><div><a href="http://startingelectronics.com/projects/large-open-source-PLC">Introduction &amp; Features</a></div></li>
+		<li><div><a class="art_menu_sel" href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components">Components &amp; Source Files</a></div></li>
+	</ul>
+</div>
+	<h1>Large Open Source PLC Components and Source Files</h1>
+	<p id="page_date">Created on: 23 April 2013</p>
+	<p>Components used to construct the Large Open Source PLC including case, boards and connectors. Schematic diagrams and photos of all the circuit boards used in the large brick open source PLC.</p>
+						<br>
+					<script type="text/javascript"><!--
+					google_ad_client = "ca-pub-1311998530216395";
+					/* Top_wide_720x90 */
+					google_ad_slot = "9633317804";
+					google_ad_width = 728;
+					google_ad_height = 90;
+					//-->
+					</script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+					</script>
+					<br><br>
+					
+	<h2>PLC Circuit Boards</h2>
+	<p>The Large Brick Open Source PLC (OSPLC) consists of three circuit boards:</p>
+	<ul>
+		<li><b>CPU Board</b> – contains the microcontroller, RTC and other ICs.</li>
+		<li><b>IO Board</b> – contains the power supply regulator, optically isolated input and output circuitry and connectors.</li>
+		<li><b>Status Board</b> – input indicator LEDs, reset switch, status LED and USB connector.</li>
+	</ul>
+	
+	<img src="./Large Open Source PLC Components and Source Files_files/OSPLC2-inside.jpg" alt="Inside the Large OSPLC" width="550" height="413">
+	<p class="pic_caption">Inside the Large OSPLC</p>
+	
+	<h2>Design Source Files for the Large Open Source PLC</h2>
+	<p>The boards were designed using Altium designer. The download below is for the Altium designer source files for the three boards used in the PLC.</p>
+	<p>For schematic diagrams and board outlines in PDF format for each board, see the sections below.</p>
+	<p><a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2.zip">Download the Altium designer PLC source files: OSPLC2_2.zip</a> (795.7kB) – needs the Altium designer software to view. Also contains Gerber files and drill files.</p>
+	
+	<script type="text/javascript"><!--
+amazon_ad_tag = "startielectr-20"; amazon_ad_width = "728"; amazon_ad_height = "90";//--></script>
+<script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/ads.js"></script>
+<br><br>
+			
+<br>
+<div class="amazon_box">
+	<p><strong>From amazon.com:</strong></p>
+	<iframe class="amaz_left" src="./Large Open Source PLC Components and Source Files_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Large Open Source PLC Components and Source Files_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Large Open Source PLC Components and Source Files_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Large Open Source PLC Components and Source Files_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	<iframe src="./Large Open Source PLC Components and Source Files_files/saved_resource.htm" style="width: 120px; height: 240px; display: none !important;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</div>
+<br>
+	
+	<h2>CPU Board</h2>
+	<p>The PLC CPU board is mounted on the IO board with two rows of pin headers.</p>
+	<p>CPU board schematic: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_CPU.pdf" class="targetblank" target="_blank">OSPLC2_2_CPU.pdf</a> (37.9kB)</p>
+	<p>CPU board outline and dimensions: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_CPU_outline.pdf" class="targetblank" target="_blank">OSPLC2_2_CPU_outline.pdf</a> (276.4kB)</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/IO-board-CPU-board.jpg" alt="CPU Board Plugged into IO Board" width="550" height="322">
+	<p class="pic_caption">CPU Board Plugged into IO Board</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/CPU-board-bottom.jpg" alt="CPU Board Bottom" width="500" height="194">
+	<p class="pic_caption">CPU Board Bottom Showing RTC Backup Battery and SD Card Socket</p>
+	
+	<h2>IO board</h2>
+	<p>The I/O board has components mounted on both sides of the board.</p>
+	<p>I/O board schematic: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_IO.pdf" class="targetblank" target="_blank">OSPLC2_2_IO.pdf</a> (75.8kB)</p>
+	<p>I/O board outline and dimensions: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_IO_outline.pdf" class="targetblank" target="_blank">OSPLC2_2_IO_outline.pdf</a> (113.3kB)</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/IO-board-top.jpg" alt="IO Board Top View" width="500" height="296">
+	<p class="pic_caption">IO Board Top View</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/IO-board-bottom.jpg" alt="IO Board Bottom View" width="500" height="297">
+	<p class="pic_caption">IO Board Bottom View</p>
+	
+	<h2>Status Board</h2>
+	<p></p>
+	<p>Status board schematic: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_Status.pdf" class="targetblank" target="_blank">OSPLC2_2_Status.pdf</a> (15.1kB)</p>
+	<p>Status board outline and dimensions: <a href="http://startingelectronics.com/projects/large-open-source-PLC/PLC-components/OSPLC2_2_Status_outline.pdf" class="targetblank" target="_blank">OSPLC2_2_Status_outline.pdf</a> (33.4kB)</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/status-board-top.jpg" alt="Status Board Top" width="500" height="228">
+	<p class="pic_caption">Status Board Top View – Shown in Case</p>
+	<img src="./Large Open Source PLC Components and Source Files_files/OSPLC2-inside-case.jpg" alt="Status Board Bottom" width="500" height="326">
+	<p class="pic_caption">Status Board Bottom View – Shown in Case with Connectors</p>
+	
+	<div class="article_pg_nav">
+		<p><a href="http://startingelectronics.com/projects/large-open-source-PLC/">← Previous: Large Open Source PLC Introduction</a><!--<a class="right_link" href="../">Go to Part ? of ? &rarr;</a>--></p>
+	</div>
+	<div id="blog_link">
+	<p>To comment on this article or ask questions, go to the <a href="http://blog.startingelectronics.com/?p=653">blog entry for this article</a>. Use the comment box at the bottom of the blog entry.</p>
+</div>
+</div>
+
+						<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-1311998530216395";
+				/* Content Bottom 728x90 Text and Images */
+				google_ad_slot = "9064770040";
+				google_ad_width = 728;
+				google_ad_height = 90;
+				//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+					<div class="clr_flt"></div>
+		</div> <!-- end of "page" div -->
+		<div id="footer">
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/beginners">Beginners</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/beginners/about-electronics">About Electronics</a></li>
+					<li><a href="http://startingelectronics.com/beginners/start-electronics-now">Start Electronics Now</a></li>
+					<li><a href="http://startingelectronics.com/beginners/tools">Tools for Beginners</a></li>
+					<li><a href="http://startingelectronics.com/beginners/soldering">Soldering</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/projects">Projects</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects">Arduino Projects</a></li>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-stripboard-shield">Tiny Stripboard Shield</a></li>
+					<li><a href="http://startingelectronics.com/projects/arduino-projects/arduino-tiny-temperature-shield">Temperature Shield</a></li>
+					<li><a href="http://startingelectronics.com/projects/xilinx-CPLD-board">CPLD Board</a></li>
+					<!--<li><a href="/projects">More Projects...</a></li>-->
+				</ul>
+			</div>
+			
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/tutorials">Tutorials</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/tutorials/arduino" title="Open Source Microcontroller Hardware and Software Platform">Arduino</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/AT91SAM7S-microcontrollers" title="Atmel ARM7 Microcontrollers">AT91SAM7S Micros</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/AVR-8-microcontrollers" title="Atmel 8-bit AVR Microcontrollers">AVR 8-bit Micros</a></li>
+					<li><a href="http://startingelectronics.com/tutorials/STM32-microcontrollers" title="ST Microelectronics ARM Cortex Microcontrollers">STM32 Micros</a></li>
+				</ul>
+			</div>
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/articles">Articles</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/articles/arduino">Arduino Articles</a></li>
+					<li><a href="http://startingelectronics.com/articles/AT91SAM7S-microcontrollers">AT91SAM7S Micros</a></li>
+					<li><a href="http://startingelectronics.com/articles/STM32-microcontrollers">STM32 Micros</a></li>
+					<li><a href="http://startingelectronics.com/articles">More articles...</a></li>
+				</ul>
+				<p></p>
+			</div>
+			<div class="footer_block">
+				<h3><a href="http://startingelectronics.com/reviews">Reviews</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/reviews/tools">Tools Reviews</a></li>
+					<li><a href="http://startingelectronics.com/reviews/evaluation-boards">Evaluation Boards</a></li>
+					<li><a href="http://startingelectronics.com/reviews/books">Book Reviews</a></li>
+					<li><a href="http://startingelectronics.com/reviews">More reviews...</a></li>
+				</ul>
+			</div>
+			<div class="footer_block_r">
+				<h3><a href="http://startingelectronics.com/software">Software</a></h3>
+				<ul>
+					<li><a href="http://startingelectronics.com/software/VHDL-CPLD-course">VHDL Course</a></li>
+					<li><a href="http://startingelectronics.com/software/arduino">Arduino Software</a></li>
+					<li><a href="http://startingelectronics.com/software/processing">Processing Language</a></li>
+					<li><a href="http://startingelectronics.com/software/xilinx">Xilinx Software</a></li>
+				</ul>
+			</div>
+
+			<div class="clr_flt"></div>
+			<div class="footer_block_hor">
+				<ul>
+					<li><a href="http://startingelectronics.com/site/about">About</a></li>
+					<li><a href="http://startingelectronics.com/site/contact">Contact</a></li>
+					<li><a href="http://startingelectronics.com/site/donate">Donate</a></li>
+					<li><a href="http://startingelectronics.com/site/privacy-policy">Privacy Policy</a></li>
+				</ul>
+				<div class="clr_flt"></div>
+			</div>
+		</div>
+		<p id="cpy_txt">© 2012 – 2014, Starting Electronics</p>
+	
+
+
+<script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/33cd2962b4d7fa00cda6d532857759bd?id=3f9c3ae33fab";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script></body></html>

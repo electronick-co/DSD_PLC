@@ -1,0 +1,61 @@
+Added Component: Designator=P1(block_conn 2 x 2)
+Added Component: Designator=P2(block_conn 2 x 2)
+Added Component: Designator=P3(block_conn 2 x 2)
+Added Component: Designator=P4(block_conn 2 x 2)
+Added Component: Designator=P5(block_conn 2 x 2)
+Added Component: Designator=P6(block_conn 2 x 2)
+Added Component: Designator=P7(block_conn 2 x 2)
+Added Component: Designator=P8(block_conn 2 x 2)
+Added Component: Designator=P9(block_conn 2 x 3)
+Added Component: Designator=P10(block_conn 2 x 2)
+Added Pin To Net: NetName=X12 Pin=P1-1
+Added Pin To Net: NetName=COM12 Pin=P1-2
+Added Pin To Net: NetName=X11 Pin=P1-3
+Added Pin To Net: NetName=COM11 Pin=P1-4
+Added Pin To Net: NetName=Y1 Pin=P2-1
+Added Pin To Net: NetName=COM1 Pin=P2-2
+Added Pin To Net: NetName=Y2 Pin=P2-3
+Added Pin To Net: NetName=COM2 Pin=P2-4
+Added Pin To Net: NetName=X10 Pin=P3-1
+Added Pin To Net: NetName=COM10 Pin=P3-2
+Added Pin To Net: NetName=X9 Pin=P3-3
+Added Pin To Net: NetName=COM9 Pin=P3-4
+Added Pin To Net: NetName=Y3 Pin=P4-1
+Added Pin To Net: NetName=COM3 Pin=P4-2
+Added Pin To Net: NetName=Y4 Pin=P4-3
+Added Pin To Net: NetName=COM4 Pin=P4-4
+Added Pin To Net: NetName=X8 Pin=P5-1
+Added Pin To Net: NetName=X7 Pin=P5-2
+Added Pin To Net: NetName=X6 Pin=P5-3
+Added Pin To Net: NetName=X5 Pin=P5-4
+Added Pin To Net: NetName=Y5 Pin=P6-1
+Added Pin To Net: NetName=COM5 Pin=P6-2
+Added Pin To Net: NetName=Y6 Pin=P6-3
+Added Pin To Net: NetName=COM6 Pin=P6-4
+Added Pin To Net: NetName=X4 Pin=P7-1
+Added Pin To Net: NetName=X3 Pin=P7-2
+Added Pin To Net: NetName=X2 Pin=P7-3
+Added Pin To Net: NetName=X1 Pin=P7-4
+Added Pin To Net: NetName=Y7 Pin=P8-1
+Added Pin To Net: NetName=COMM Pin=P8-2
+Added Pin To Net: NetName=Y8 Pin=P8-3
+Added Pin To Net: NetName=Y9 Pin=P8-4
+Added Pin To Net: NetName=IN_GND Pin=P9-1
+Added Pin To Net: NetName=A4 Pin=P9-2
+Added Pin To Net: NetName=A3 Pin=P9-3
+Added Pin To Net: NetName=A2 Pin=P9-4
+Added Pin To Net: NetName=A1 Pin=P9-5
+Added Pin To Net: NetName=AN_GND Pin=P9-6
+Added Pin To Net: NetName=Y10 Pin=P10-1
+Added Pin To Net: NetName=Y11 Pin=P10-2
+Added Pin To Net: NetName=Y12 Pin=P10-3
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P1 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P2 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P3 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P4 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P5 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P6 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P7 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P8 BLOCK_CONN2X2
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P9 BLOCK_CONN2X3
+Added Member To Class: ClassName=DSDPLC_IO Member=Component P10 BLOCK_CONN2X2
