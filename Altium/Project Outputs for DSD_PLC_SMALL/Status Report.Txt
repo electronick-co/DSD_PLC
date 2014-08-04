@@ -1,12 +1,11 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [DSD_PLC_SMALL.PrjPCB]
-   Generated File[DSD_PLC_SMALL.TXT]
-   Generated File[DSD_PLC_SMALL.LDP]
-   Generated File[DSD_PLC_SMALL.DRR]
+Output: Simple BOM
+Type  : SimpleBOM
+From  : Variant [[No Variations]] of Project [DSD_PLC_SMALL.PrjPCB]
+   Generated File[DSD_PLC_SMALL.BOM]
+   Generated File[DSD_PLC_SMALL.CSV]
 
 
-Files Generated   : 3
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 10:28:43 a.m. On 28/07/2014
+Finished Output Generation At 05:01:49 p.m. On 01/08/2014
