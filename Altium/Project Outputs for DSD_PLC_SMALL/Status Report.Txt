@@ -1,11 +1,11 @@
 Output: Simple BOM
 Type  : SimpleBOM
 From  : Variant [[No Variations]] of Project [DSD_PLC_SMALL.PrjPCB]
-   Generated File[DSD_PLC_SMALL.BOM]
-   Generated File[DSD_PLC_SMALL.CSV]
+   Generated File[DSDPLC_IO.BOM]
+   Generated File[DSDPLC_IO.CSV]
 
 
 Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 05:01:49 p.m. On 01/08/2014
+Finished Output Generation At 04:15:28 p.m. On 04/08/2014
