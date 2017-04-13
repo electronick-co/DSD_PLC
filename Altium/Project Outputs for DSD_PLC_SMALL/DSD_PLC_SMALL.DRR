@@ -1,22 +1,22 @@
----------------------------------------------------------------------------
-NCDrill File Report For: DSD_PLC_SMALL.PcbDoc   28/07/2014  10:28:42 a.m.
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DSD_PLC_SMALL.PcbDoc   1/16/2017  8:15:36 PM
+----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
 ASCII RoundHoles File : DSD_PLC_SMALL.TXT
 
-Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
----------------------------------------------------------------------------
-T1        28mil (0.7112mm)         Round          145              28.33 Inch (719.61 mm)
-T2        35.04mil (0.89002mm)     Round          8                0.71 Inch (18.08 mm)
-T3        35.43mil (0.89992mm)     Round          8                3.04 Inch (77.22 mm)
-T4        39.37mil (1mm)           Round          3                0.20 Inch (5.08 mm)
-T5        55.12mil (1.40005mm)     Round          40               11.97 Inch (303.94 mm)
-T6        61.81mil (1.56997mm)     Round          1                0.00 Inch (0.00 mm)
-T7        62mil (1.5748mm)         Round          1                0.00 Inch (0.00 mm)
-T8        125mil (3.175mm)         Round          2                4.09 Inch (103.98 mm)
-T9        127.95mil (3.24993mm)    Round          2                0.45 Inch (11.43 mm)
----------------------------------------------------------------------------
-Totals                                            210              48.79 Inch (1239.34 mm)
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.711mm)                                           Round             145       PTH        27.19inch (690.59mm)
+T2      35mil (0.89mm)                                            Round             8         PTH        0.71inch (18.08mm)
+T3      35mil (0.9mm)                                             Round             8         PTH        3.04inch (77.22mm)
+T4      39mil (1mm)                                               Round             3         PTH        0.20inch (5.08mm)
+T5      55mil (1.4mm)                                             Round             40        PTH        12.17inch (309.02mm)
+T6      62mil (1.57mm)                                            Round             1         PTH        0.00inch (0.00mm)
+T7      62mil (1.575mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T8      125mil (3.175mm)                                          Round             2         PTH        4.09inch (103.98mm)
+T9      128mil (3.25mm)                                           Round             2         PTH        0.45inch (11.43mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              210
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,30 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~122|Field=Description~String~Description~325|Field=Designator~String~Designator~119|Field=Footprint~String~Footprint~72|Field=LibRef~String~LibRef~72|Field=Quantity~Integer~Quantity~34|Field=Manufacturer 1~String~Manufacturer 1~155|Field=Manufacturer Part Number 1~String~Manufacturer Part Number 1~91|Field=Supplier Order Qty 1~Integer~Supplier Order Qty 1~65|Field=Supplier Unit Price 1~Float~Supplier Unit Price 1~61|Field=Supplier Subtotal 1~Float~Supplier Subtotal 1~65|ReportField=Currency~<none>|ReportField=ProductionQuantity~3|ReportField=ProjectFileName~DSD_PLC_SMALL.PrjPCB|ReportField=ProjectFullPath~C:\Users\Nick\Documents\DSD_PLC\Altium\DSD_PLC_SMALL.PrjPCB|ReportField=Title~Bill of Materials For Project [DSD_PLC_SMALL.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~165|ReportField=ReportTime~9:04:44 PM|ReportField=ReportDate~1/16/2017|ReportField=ReportDateTime~1/16/2017 9:04:44 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Nicolás Velásquez|ReportField=CheckedBy~|ReportField=CompanyName~DeepSea Developments|ReportField=CurrentDate~1/16/2017|ReportField=CurrentTime~7:50:55 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Nick\Documents\DSD_PLC\Altium\DSDPLC_IO.SchDoc|ReportField=DocumentName~DSDPLC_IO.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~1/16/2017|ReportField=Organization~|ReportField=ProjectName~DSD_PLC_SMALL.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~DSD_PLC|ReportField=DataSourceFileName~DSD_PLC_SMALL.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Nick\Documents\DSD_PLC\Altium\DSD_PLC_SMALL.PrjPCB|ReportField=PCBDataSourceFileName~DSD_PLC_SMALL.PcbDoc|ReportField=PCBDataSourceFullPath~C:\Users\Nick\Documents\DSD_PLC\Altium\DSD_PLC_SMALL.PcbDoc
+1|10uF||C1, C2|C_TANT_A_3216_N|CP_SMD|2|||||
+2|0.1uF||C3, C4, C5, C6, C7|C0603_N|C_SMD|5|||||
+3|Green||D1, D2, D6, D7, D11, D12, D13, D14, D21, D22, D23, D24, D31, D32, D33, D34, D38, D39, D43, D44, D45, D46, D47, D48, D49|R0603_N|LED_SMD|25|||||
+4|SMBJ5344B-TP|DIODE ZENER 8.2V 5W DO214AA|D3, D4, D5, D15, D16, D17, D25, D26, D27, D35, D36, D37|SMB_N|SMBJ5344B-TP|12|Micro Commercial Co|SMBJ5344B-TP|36|0.5044|18.1584
+5|LL4148|DIODE SMALL SIG 100V 0.2A SOD80|D8, D9, D10, D18, D19, D20, D28, D29, D30, D40, D41, D42|SOD-80_N|LL4148|12|Fairchild/ON Semiconductor|LL4148|36|0.077|2.772
+6|S1BB-13-F|DIODE GEN PURPOSE 100V 1A SMB|D50, D51, D52|SMB_N|S1BB-13-F|3|Diodes Incorporated|S1BB-13-F|10|0.277|2.77
+7|1206L150THWR|FUSE PTC RESET 8V 1.50A 1206|F1|R1206_N|1206L150THWR|1|Littelfuse Inc.|1206L150THWR|3|0.52|1.56
+8|MICRO_USB|CONN USB MICRO B RECPT SMT R/A|J1|USB_MICRO_SMD|MICRO_USB|1|Amphenol FCI|10118194-0001LF|3|0.46|1.38
+9|RJ45|CONN MOD JACK R/A 8P8C SHIELDED|J2|rj45|RJ45|1|TE Connectivity AMP Connectors|5555153-1|3|1.82|5.46
+10|Logo_DeepSea||LOGO1|DeepSea_logo1|Logo_DeepSea|1|||||
+11|EZJ-Z1V420FA|VARISTOR 42V 15A 0603|M1|R0603_N|EZJ-Z1V420FA|1|Panasonic Electronic Components|EZJ-Z1V420FA|3|0.28|0.84
+12|MountingHole-1/8in||M2, M3|MoutingHole-1/8in|MountingHole-1/8in|2|||||
+13|BLOCK_CONN2X2|TERM BLOCK 2POS STACK 5.08MM PC|P1, P2, P3, P4, P5, P6, P8|block_conn 2 x 2|BLOCK_CONN2X2|7|TE Connectivity AMP Connectors|796692-2|21|2.054|43.134
+14|BLOCK_CONN2X3|TERM BLOCK 3POS STACK 5.08MM PC|P7, P9|block_conn 2 x 3|BLOCK_CONN2X3|2|TE Connectivity AMP Connectors|796692-3|6|3.78|22.68
+15|Header 2|Header, 2-Pin|P10|HDR1X2|Header 2|1|||||
+16|Header 3X2|Header, 3-Pin, Dual row|P11|HDR2X3|Header 3X2|1|||||
+17|R_SMD||R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49|R0603_N|R_SMD|49|||||
+18|10K||R50|R0603_N|R_SMD|1|||||
+19|120||R51|R0603_N|R_SMD|1|||||
+20|0R||R52|R0603_N|R_SMD|1|||||
+21|SWITCH|SWITCH TACTILE SPST-NO 0.05A 12V|SW1|swich_foot|SWITCH|1|TE Connectivity ALCOSWITCH Switches|FSM4JSMATR|3|0.28|0.84
+22|TLP185(GR,E)|OPTOISO 3.75KV TRANS 6-SO 4 LEAD|U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12|SOIC6 (4 leads)|TLP185(GR,E)|12|Toshiba Semiconductor and Storage|TLP185(GR,E)|36|0.3412|12.2832
+23|CPC1020NTR|RELAY OPTOMOS 1200MA 4-SOP|U13, U14, U17, U18, U19, U20, U23, U24, U25, U26, U29, U30|SOP4_N|CPC1020NTR|12|IXYS Integrated Circuits Division|CPC1020NTR|36|2.574|92.664
+24|MUN5213DW1T1G|TRANS PREBIAS DUAL NPN SOT363|U15, U16, U21, U22, U27, U28|SOT363_N|MUN5213DW1T1G|6|ON Semiconductor|MUN5213DW1T1G|18|0.219|3.942
+25|R-78B5.0-1.0|CONV DC/DC 1A 5V OUT SIP VERT|U31|SIP3_RECOM|R-78B5.0-1.0|1|Recom Power|R-78B5.0-1.0|3|8.45|25.35
+26|LM1117MPX-3.3/NOPB|800mA Low-Dropout Linear Regulator, 4-pin SOT-223, Pb-Free|U32|MP04A_N|LM1117MPX-3.3/NOPB|1|Loading...|Loading...|||
+27|ATXMEGA32A4U-AU|IC MCU 8BIT 32KB FLASH 44TQFP|U33|44A_N|ATXMEGA32A4U-AU|1|Microchip Technology|ATXMEGA32A4U-AU|3|2.94|8.82
+28|IP4220CZ6,125|IC USB DUAL ESD PROTECT 6TSOP|U34|SOT457_N|IP4220CZ6,125|1|NXP USA Inc.|IP4220CZ6,125|3|0.42|1.26
+29|ST3485ECDR|TXRX RS485/422 3.3V ESD 8-SOIC|U35|SOIC8WA_N|ST3485ECDR|1|STMicroelectronics|ST3485ECDR|3|1.48|4.44
